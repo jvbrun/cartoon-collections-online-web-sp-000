@@ -10,10 +10,10 @@ end
 
 def long_planeteer_calls(array)
   if 
-   calls.any? { |i| i.length > 4 }
+   array.any? { |i| i.length > 4 }
     return true 
  else
-   calls.all? { |i| i.length > 4 }
+   array.all? { |i| i.length > 4 }
     return false 
  end 
 end
